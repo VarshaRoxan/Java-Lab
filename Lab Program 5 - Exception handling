@@ -43,7 +43,7 @@ Customexception()
 System.out.println("There is an error");
 }
 }
-public class demo2
+public class demo3
 {
 public static void main(String[] se)
 {
@@ -52,12 +52,18 @@ System.out.println("Enter the marks");
 String a=b.next();
 System.out.println("Enter the subject name");
 String d=b.next();
+
+System.out.println("Enter the marks");
+String x=b.next();
+System.out.println("Enter the subject name");
+String y=b.next();
 try
 {
-if(a.equals ("40") && d.equals ("java"))
+if((a.equals ("40") && d.equals ("java")) && (x.equals ("50") && y.equals ("bd")))
 System.out.println("RIGHT!");
 else
 throw new Customexception();
+
 }
 catch(Exception e)
 {
@@ -65,4 +71,3 @@ System.out.println();
 }
 }
 }
-
