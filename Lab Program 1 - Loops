@@ -1,34 +1,16 @@
-int i=5;
-int k=[0,1,2,3,4,5]
+import java.util.Scanner;
 
-//if
-if(i>4)
-	System.out.println("i is greater");
-
-//if-else
-if(i>=4)
-	System.out.println("i is greater ");
-else
-	System.out.println("i is smaller");
-
-//for
-for(j=0;j<=i;j++)
-	System.out.println(i);
-
-//for-each
-for (int l:k)
-	System.out.println(i);
-
-//while
-while(i>0)
+public class Statements
 {
-	System.out.println(i);
-	i--;
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int number=5, i;
+		sc = new Scanner(System.in);	
+		
+		for(i = 1; i <= number; i++)
+		{
+			System.out.println(i); 
+		}	
+	}
 }
-
-//do-while
-do
-{
-	System.out.println(i);
-	i--;
-}while(i>0)
