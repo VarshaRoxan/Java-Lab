@@ -1,0 +1,34 @@
+int i=5;
+int k=[0,1,2,3,4,5]
+
+//if
+if(i>4)
+	System.out.println("i is greater");
+
+//if-else
+if(i>=4)
+	System.out.println("i is greater ");
+else
+	System.out.println("i is smaller");
+
+//for
+for(j=0;j<=i;j++)
+	System.out.println(i);
+
+//for-each
+for (int l:k)
+	System.out.println(i);
+
+//while
+while(i>0)
+{
+	System.out.println(i);
+	i--;
+}
+
+//do-while
+do
+{
+	System.out.println(i);
+	i--;
+}while(i>0)
