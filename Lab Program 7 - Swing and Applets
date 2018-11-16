@@ -1,3 +1,4 @@
+***************************Database******************************
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,3 +22,24 @@ frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
 }
+
+
+***************************Hello world******************************
+
+import java.applet.Applet;
+import java.awt.Graphics;
+
+public class HelloWorld extends Applet
+{
+	public void paint(Graphics g)
+	{
+		g.drawString("Hello World",20,20);
+	}
+}
+
+
+
+HelloWorld.html
+
+<applet code="HelloWorld" width=200 height=60>
+</applet>
